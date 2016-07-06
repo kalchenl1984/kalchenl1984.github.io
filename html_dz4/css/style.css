@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("../font/opensans-regular-webfont.eot");
+  src: url("../font/opensans-regular-webfont.eot?#iefix") format("embedded-opentype");
+  src: url("../font/opensans-regular-webfont.woff2") format("woff2");
+  src: url("../font/opensans-regular-webfont.woff") format("woff");
+  src: url("../font/opensans-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+	background-image: url("../img/fon.png")
+}
+
+html, body {
+	height: 100%;
+}
+
+.clearfix:after {
+  content: "."; /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.wrapper {
+	width: 1000px;	
+	font-size:20px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 0px;
+	box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.3);
+	min-height: 100%;
+} 
+
+.header {
+	padding-top: 10px;
+}
+
+.logo {
+	width: 40%;
+	float: left;
+	padding-left: 28px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+    height: 164px;
+}
+
+.header_right {
+	float: right;
+	/*padding: 20px 20px 20px 20px;*/
+	color: #5f97bb;
+	font-family: OpenSans;
+}
+
+.contacts {
+	float: right;
+	text-align: left;
+	padding: 0px 32px 32px 0px;
+	color: #5f97bb;
+	font-family: OpenSans;
+	font-size: 12px;
+	line-height: 150%;
+}
+
+.contacts h3 {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.header_spisok {
+	clear: both;
+	text-align: center;
+	font-family: OpenSans;
+	font-size: 9px;
+	padding-right: 30px;
+}
+
+.header_spisok ul li {
+	float: left;
+	width: 56px;
+	text-align: center;
+}
+
+.header_spisok ul li img {
+	display: block;
+	margin: auto;
+}
+
+.header_spisok ul li a {
+	display: block;
+	padding-top: 5px;
+}
+
+.photo {
+	height: 237px;
+}
+
+.menu {
+	font-family: OpenSans;
+	font-size: 15px;
+	color: white;
+	background: -webkit-linear-gradient(90deg, #303030 0%, #373737 100%);
+    background: -moz-linear-gradient(90deg, #303030 0%, #373737 100%);
+    background: -o-linear-gradient(90deg, #303030 0%, #373737 100%);
+    background: -ms-linear-gradient(90deg, #303030 0%, #373737 100%);
+    background: linear-gradient(0deg, #303030 0%, #373737 100%);
+    /* IE9*/
+    background-color: #303030;
+    height: 30px;
+    width: 940px;
+    box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    padding: 0px 30px 0px 30px;
+}
+
+.menu a, .menu a:visited, .menu a:active {
+	color:white;
+	text-decoration: none;
+}
+
+.menu li {
+	display: inline-block;
+	padding: 0px 24px 0px 24px;
+    text-align: left;
+    line-height: 30px;
+
+}
+
+.menu .podmenu {
+	display: none;
+    background-color: #303030;
+}
+
+.menu_top{
+	position: relative;
+}
+
+.menu_top:hover .podmenu {
+	display: block;
+	position: absolute;
+	left: 0px;
+} 
+
+.column_left {
+	width: 170px;
+	float: left;
+	padding: 10px 10px 20px 20px;
+}
+.column_center {
+	width: 580px;
+	float: left;
+	min-height: 100px;
+}
+.column_right {
+	width: 170px;
+	float: left;
+	padding: 10px 10px 20px 20px;	
+}
+
+.column_wrapper {
+	width: 1000px; /* ширина трех блоков */
+	background: url(../img/column_fon.png) repeat-y; /* фоновая картинка. повторяется по вертикали */
+	font-family: OpenSans;
+	color: black;
+	font-size: 13px;
+	line-height: 200%;
+	min-height: 100%;
+
+}
+
+.column_wrapper h2 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	font-size: 14px;
+}
